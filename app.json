@@ -1,0 +1,105 @@
+{
+  "name": "Flicks-Userbot",
+  "description": "[Ficks-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/62e4919abb9c9dd7c0310.jpg",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/fjgaming212/Deploy-Flicks",
+  "telegram": "https://t.me/FJ_GAMING",
+  "success_url": "https://t.me/FlicksSupport",
+  "stack": "container",
+  "env": {
+    "API_KEY": {
+      "description": "Dapatkan Api Key di web my.telegram.org ,masukan yang API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Dapatkan Api Hash Di Web my.telegram.org.",
+      "required": true
+    },
+     "STRING_SESSION": {
+      "description": "Dapatkan String Session di https://replit.com/@fjgaming212/StringSession#main.py atau di t.me/FlicksStringSessionBot",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku API KEY mu, dapatkan dari web 'https://dashboard.heroku.com/account'",
+      "value": "Check Di Heroku Dashboard Mu",
+      "required": true
+    },
+    "BOTLOG_CHATID": {
+      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001234567890",
+      "value": "Isi ID Grup Anda, Contoh -1001404961053",
+      "required": true
+    },
+    "G_BAN_LOGGER_GROUP": {
+      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001234567890",
+      "value": "Isi ID Grup Anda, Contoh -1001404961053",
+      "required": true
+    },
+    "PM_AUTO_BAN": {
+      "description": "PMPERMIT untuk bot mu, false = Mati,true = Hidup",
+      "value": "False",
+      "required": true
+    },
+    "DEFAULT_BIO": {
+      "description": "Default Bio Mu.",
+      "value": "Flicks-Userbot ✨",
+      "required": false
+    },
+    "ALIVE_NAME": {
+      "description": "Nama untuk menunjukan pesan .alive",
+      "required": true
+    },
+    "FLICKS_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .flicksalive (Isi Terserah)",
+      "value": "I'am Using Flicks-Userbot ✨",
+      "required": false
+    },
+    "WEATHER_DEFCITY": {
+      "description": "Set the default city for the userbot's weather module.",
+      "value": "Solo",
+      "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Username of the bot you created with @BotFather",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],"buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }, {
+    "url": "https://github.com/heroku/heroku-buildpack-redis"
+  }, {
+    "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+  }, {
+    "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab"
+  },{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  }, {
+    "url": "https://github.com/amivin/aria2-heroku"
+  }, {
+    "url": "https://github.com/stevo550/buildpack-slug-cleaner"
+  }]
+}
