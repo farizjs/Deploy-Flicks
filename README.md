@@ -50,6 +50,7 @@ Gabung [Grup Support](https://t.me/FlicksSupport) Dan [Channel Update](https://t
 *   [Kyy](http://github.com/muhammadrizky16/Kyy-Userbot)    Kyy - Userbot
 *   [Tonic](http://github.com/Tonic990/Tonic-User)    Tonic - Userbot
 *   [Skyzu](https://github.com/Skyzu/Skyzu-Userbot)     Skyzu - Userbot
+*   [MFarelS](https://github.com/MFarelS)   MFarelS - Ownerbot
 
 🔰 **THANKS YOU TO**
 *   [Kennedy](https://github.com/KennedyProject/KEN-UBOT)    Ken - Userbot
@@ -57,4 +58,5 @@ Gabung [Grup Support](https://t.me/FlicksSupport) Dan [Channel Update](https://t
 *   [Vicky](https://github.com/Vckyou/Geez-Project)    Geez - Project 
 *   [Koala](https://github.com/ManusiaRakitan/Kampang-Bot)    Kampang - Bot
 *   [Risman](https://github.com/mrismanaziz/Man-Userbot)   Man - Userbot
+*   [MFarelS](https://github.com/MFarelS)   MFarelS - Ownerbot
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
