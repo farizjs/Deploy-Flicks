@@ -50,19 +50,9 @@
       "value": "False",
       "required": true
     },
-    "DEFAULT_BIO": {
-      "description": "Default Bio Mu.",
-      "value": "Flicks-Userbot ✨",
-      "required": false
-    },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
       "required": true
-    },
-    "FLICKS_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .flicksalive (Isi Terserah)",
-      "value": "I'am Using Flicks-Userbot ✨",
-      "required": false
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
