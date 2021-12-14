@@ -60,12 +60,12 @@
       "required": false
     },
     "BOT_TOKEN": {
-      "description": "Set this to enable inline bot helper. get the token from @BotFather",
-      "required": false
+      "description": "Setel ini untuk mengaktifkan inline bot helper. dapatkan tokennya dari @BotFather",
+      "required": true
     },
     "BOT_USERNAME": {
-      "description": "Username of the bot you created with @BotFather",
-      "required": false
+      "description": "Username bot yang Anda buat dengan @BotFather,masukan tanpa @",
+      "required": true
     }
   },
   "addons": [
