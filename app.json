@@ -44,11 +44,6 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": true
     },
-    "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
-      "value": "Solo",
-      "required": false
-    },
     "BOT_TOKEN": {
       "description": "Setel ini untuk mengaktifkan inline bot helper. dapatkan tokennya dari @BotFather",
       "required": true
